@@ -1,6 +1,9 @@
 site_name: Brady Smith
 site_url: https://bradyasmith.com
 theme:
+  font:
+    text: Roboto
+    code: Roboto Mono
   name: material
   palette:
     # Dark Mode
