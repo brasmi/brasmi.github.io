@@ -59,9 +59,9 @@ OPTIONS:
 SHARP provides a test script for benchmarking native low-level performance for all_reduce and barrier operations both with and without SHARP. To run the benchmark utility:
 
 1. Launch from a host running SM and Aggregation Manager with the following packages installed:
-  * ssh
-  * pdsh
-  * environment-modules.x86_64
+    * ssh
+    * pdsh
+    * environment-modules.x86_64
 
 2. Load the HPC-X module and open `sharp_benchmark.sh` to launch the script:
 
