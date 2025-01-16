@@ -21,3 +21,9 @@ theme:
         name: Light mode
       primary: indigo
       accent: blue
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - toc:
+      permalink: true
