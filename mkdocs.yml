@@ -2,19 +2,18 @@ site_name: Brady Smith
 site_url: https://bradyasmith.com
 theme:
   name: material
+  logo: assets/images/avatar.png
   font:
     text: Roboto
     code: Roboto Mono
-  icon:
-    logo: assets/avatar.jpg
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: indigo
-      accent: blue
+      primary: black
+      accent: indigo
 
     # Light Mode
     - scheme: default
@@ -29,5 +28,8 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: Copyright &copy; 2025 Brady Smith
