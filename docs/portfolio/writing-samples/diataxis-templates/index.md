@@ -1,15 +1,43 @@
 # What is Diataxis?
 
-[Diataxis](https://diataxis.fr/) is a prescriptive framework for documentation content and architecture. It is a valuable framework for its simplicity and ease of use for both users and authors regardless of scale. 
+[Diataxis](https://diataxis.fr/){ .external target="blank" } is a prescriptive framework for documentation content and architecture. It is a valuable framework for its simplicity and ease of use for both users and authors regardless of scale. 
 
 ## Document types
 
 At a high level, documentation tends to fall under four main categories:
 
-* How-to
+<div class="grid cards" markdown>
 
-* Tutorial
+-   :material-wrench-outline:{ .lg .middle } __How-to__
 
-* Overview
+    ---
 
-* Reference
+    How-to docs describe how to complete a single discrete task, possibly in multiple ways
+
+    [:octicons-arrow-right-24: How-to template](./writing-samples/sharp.md)
+
+-   :material-book-open-outline:{ .lg .middle } __Tutorial__
+
+    ---
+
+    Tutorials provide instruction on how to complete a larger end-toend task consisting of multiple smaller tasks
+
+    [:octicons-arrow-right-24: Tutorial template](#)
+
+-   :material-information-slab-box-outline:{ .lg .middle } __Overview__
+
+    ---
+
+    Overviews provide context to help users form a mental model of a product or feature
+
+    [:octicons-arrow-right-24: Overview template](#)
+
+-   :material-database-cog-outline:{ .lg .middle } __Reference__
+
+    ---
+
+    References document low-level stuff, like APIs or client libraries
+
+    [:octicons-arrow-right-24: Reference template](#)
+
+</div>

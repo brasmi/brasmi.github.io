@@ -35,6 +35,7 @@ nav:
     - Overview: portfolio/index.md
     - Writing samples:
       - portfolio/writing-samples/sharp.md
+      - Diataxis templates: portfolio/writing-samples/diataxis-templates/index.md
 
 markdown_extensions:
   - admonition
