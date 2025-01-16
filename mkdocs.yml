@@ -8,6 +8,7 @@ theme:
       - navigation.instant
       - navigation.tabs
       - navigation.tabs.sticky
+      - navigation.sections
   font:
     text: Roboto
     code: Roboto Mono
@@ -30,7 +31,10 @@ theme:
 
 nav:
   - About: index.md
-  - Portfolio: portfolio/index.md
+  - Portfolio: 
+    - portfolio/index.md
+    - Writing samples:
+      - sharp.md
 
 markdown_extensions:
   - admonition
