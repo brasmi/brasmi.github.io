@@ -1,6 +1,6 @@
 # What is Diataxis?
 
-[Diataxis](https://diataxis.fr/){ .external target="blank" } is a prescriptive framework for documentation content and architecture. It is a valuable framework for its simplicity and ease of use for both users and authors regardless of scale. 
+[Diataxis](https://diataxis.fr/){ .external target="blank" } is a prescriptive framework for documentation content and architecture. Its simplicity and ease of use for both users and authors makes Diataxis a valuable framework for approaching documentation at any scale. 
 
 ## Document types
 
