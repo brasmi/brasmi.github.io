@@ -3,6 +3,7 @@ site_url: https://bradyasmith.com
 theme:
   name: material
   logo: assets/images/avatar.png
+  favicon: assets/images/book-outline.svg
   font:
     text: Roboto
     code: Roboto Mono
