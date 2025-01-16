@@ -7,6 +7,7 @@ theme:
   features:
       - navigation.instant
       - navigation.tabs
+      - navigation.tabs.sticky
   font:
     text: Roboto
     code: Roboto Mono
@@ -26,6 +27,10 @@ theme:
         name: Light mode
       primary: indigo
       accent: blue
+
+nav:
+  - About: index.md
+  - Portfolio: portfolio/index.md
 
 markdown_extensions:
   - admonition
