@@ -32,12 +32,13 @@ theme:
 nav:
   - About: index.md
   - Portfolio: 
-    - portfolio/index.md
+    - Overview: portfolio/index.md
     - Writing samples:
       - portfolio/writing-samples/sharp.md
 
 markdown_extensions:
   - admonition
+  - attr_list
   - md_in_html
   - toc:
       permalink: true
