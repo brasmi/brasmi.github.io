@@ -3,18 +3,20 @@ tags:
   - Writing sample
 ---
 
-# Introduction
+# Validating SHARP configuration
 
-NVIDIA Scalable Hierarchical Aggregation and Reduction Protocol (SHARP) reduces the amount of network traffic data between aggregation nodes. By enabling SHARP, you can free up hardware resources for computation and reduce collective operations time.
+## Introduction
 
-Verifying SHARP configuration requries validating aggregation trees, compute node end-to-end functionality, and running the provided performance benchmarks. Each step is outlined below.
+NVIDIA Scalable Hierarchical Aggregation and Reduction Protocol (SHARP) reduces the amount of network traffic data between aggregation nodes. Enabling SHARP frees up hardware resources for computation and reduce collective operations time.
+
+Verifying SHARP configuration requries validating aggregation trees, compute node end-to-end functionality, and running the provided performance benchmarks.
 
 !!! note
     NVIDIA SHARP requires either NVIDIA Unified Fabric Manager (UFM), or a dedicated server running Subnet Manager (SM) or openSM. If using a dedicated server, disable the onboard Subnet Manager in your managed switches. Prior to validating your SHARP configuration, make sure your environment meets the setup requirements.
 
-# Validating SHARP
+## Validating SHARP
 
-## Aggregation trees
+### Aggregation trees
 
 1. In your terminal, run `ibdiagnet --sharp` to access the aggregation trees diagnostics.
 
