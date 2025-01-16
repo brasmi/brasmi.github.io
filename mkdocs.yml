@@ -6,6 +6,7 @@ theme:
   favicon: assets/images/book-outline.svg
   features:
       - navigation.instant
+      - navigation.tabs
   font:
     text: Roboto
     code: Roboto Mono
