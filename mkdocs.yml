@@ -1,10 +1,12 @@
 site_name: Brady Smith
 site_url: https://bradyasmith.com
 theme:
+  name: material
   font:
     text: Roboto
     code: Roboto Mono
-  name: material
+  icon:
+    logo: assets/avatar.jpg
   palette:
     # Dark Mode
     - scheme: slate
@@ -27,3 +29,5 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+
+copyright: Copyright &copy; 2025 Brady Smith
