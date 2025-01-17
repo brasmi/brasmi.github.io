@@ -26,4 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: echo "www.bradyasmith.com" > docs/CNAME
       - run: mkdocs gh-deploy --force
