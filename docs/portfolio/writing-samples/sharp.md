@@ -9,10 +9,28 @@ tags:
 
 NVIDIA Scalable Hierarchical Aggregation and Reduction Protocol (SHARP) reduces the amount of network traffic data between aggregation nodes. Enabling SHARP frees up hardware resources for computation and reduce collective operations time.
 
-Verifying SHARP configuration requries validating aggregation trees, compute node end-to-end functionality, and running the provided performance benchmarks.
+This guide describes the methods for validating SHARP configuration on a cluster and/or node. Validating SHARP configuration requries verifying aggregation trees, compute node end-to-end functionality, and running the provided performance benchmarks. 
+
+This guide assumes basic knowledge of high-performance computing systems and Linux command line proficiency.
+
+### Prerequsites
+
+You need the following packages installed:
+
+ * ssh
+ * pdsh
+ * environment-modules.x86_64
+
+And have either:
+
+* NVIDIA Unified Fabric Manager 
+
+	or
+
+* A dedicated server running Subnet Manager (SM) or openSM
 
 !!! note
-    NVIDIA SHARP requires either NVIDIA Unified Fabric Manager (UFM), or a dedicated server running Subnet Manager (SM) or openSM. If using a dedicated server, disable the onboard Subnet Manager in your managed switches. Prior to validating your SHARP configuration, make sure your environment meets the setup requirements.
+    If using a dedicated server, disable the onboard Subnet Manager in your managed switches. Prior to validating your SHARP configuration, make sure your environment meets the setup requirements.
 
 ## Validating SHARP
 
@@ -58,12 +76,9 @@ OPTIONS:
 
 SHARP provides a test script for benchmarking native low-level performance for all_reduce and barrier operations both with and without SHARP. To run the benchmark utility:
 
-1. Launch from a host running SM and Aggregation Manager with the following packages installed:
-    * ssh
-    * pdsh
-    * environment-modules.x86_64
+From a host running SM and Aggregation Manager:
 
-2. Load the HPC-X module and open `sharp_benchmark.sh` to launch the script:
+* Load the HPC-X module and open `sharp_benchmark.sh` to launch the benchmarking script:
 
 ```bash
 $module load hpcx
