@@ -20,7 +20,7 @@ At a high level, documentation tends to fall under four main categories:
 
     ---
 
-    Tutorials provide instruction on how to complete a larger end-toend task consisting of multiple smaller tasks
+    Tutorials provide instruction on how to complete a larger end-to-end task consisting of multiple smaller tasks
 
     [:octicons-arrow-right-24: Tutorial template](#)
 
