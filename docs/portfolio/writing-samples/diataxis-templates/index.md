@@ -22,7 +22,7 @@ At a high level, documentation tends to fall under four main categories:
 
     Tutorials provide instruction on how to complete a larger end-to-end task consisting of multiple smaller tasks
 
-    [:octicons-arrow-right-24: Tutorial template](#)
+    [:octicons-arrow-right-24: Tutorial template](tutorial.md)
 
 -   :material-information-slab-box-outline:{ .lg .middle } __Overview__
 
@@ -30,7 +30,7 @@ At a high level, documentation tends to fall under four main categories:
 
     Overviews provide context to help users form a mental model of a product or feature
 
-    [:octicons-arrow-right-24: Overview template](#)
+    [:octicons-arrow-right-24: Overview template](overview.md)
 
 -   :material-database-cog-outline:{ .lg .middle } __Reference__
 
@@ -38,6 +38,6 @@ At a high level, documentation tends to fall under four main categories:
 
     References document low-level stuff, like APIs or client libraries
 
-    [:octicons-arrow-right-24: Reference template](#)
+    [:octicons-arrow-right-24: Reference template](reference.md)
 
 </div>
