@@ -14,5 +14,3 @@
 | Name        | Type    | Required  | Description                                             |
 | :---------- | :------ | :-------- | :------------------------------------------------------ |
 | productCode | `string`|  Yes      |  Code of the document product to return the schema for. |
-|             |         |           |   |
-|             |         |           |   |
