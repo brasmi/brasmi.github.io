@@ -1,4 +1,4 @@
-# How-to template
+# Tutorial template
 
 !!! info
     This template includes writing instructions and boilerplate text you can customize, indicated in {curly brackets}. Make sure you replace the placeholders with your own text.
