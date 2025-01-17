@@ -39,6 +39,9 @@ nav:
       - Diataxis templates: 
         - Overview: portfolio/writing-samples/diataxis-templates/index.md
         - How-to template: portfolio/writing-samples/diataxis-templates/how-to.md
+        - Tutorial template: portfolio/writing-samples/diataxis-templates/tutorial.md
+        - Overview template: portfolio/writing-samples/diataxis-templates/overview.md
+        - Reference template: portfolio/writing-samples/diataxis-templates/reference.md
 
 markdown_extensions:
   - admonition
