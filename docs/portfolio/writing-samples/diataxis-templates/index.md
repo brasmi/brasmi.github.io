@@ -14,7 +14,7 @@ At a high level, documentation tends to fall under four main categories:
 
     How-to docs describe how to complete a single discrete task, possibly in multiple ways
 
-    [:octicons-arrow-right-24: How-to template](./writing-samples/sharp.md)
+    [:octicons-arrow-right-24: How-to template](#)
 
 -   :material-book-open-outline:{ .lg .middle } __Tutorial__
 

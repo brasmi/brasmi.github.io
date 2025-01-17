@@ -9,6 +9,7 @@ theme:
       - navigation.tabs
       - navigation.tabs.sticky
       - navigation.sections
+
   font:
     text: Roboto
     code: Roboto Mono
@@ -35,7 +36,9 @@ nav:
     - Overview: portfolio/index.md
     - Writing samples:
       - portfolio/writing-samples/sharp.md
-      - Diataxis templates: portfolio/writing-samples/diataxis-templates/index.md
+      - Diataxis templates: 
+        - Overview: portfolio/writing-samples/diataxis-templates/index.md
+        - How-to template: portfolio/writing-samples/diataxis-templates/how-to.md
 
 markdown_extensions:
   - admonition
