@@ -18,6 +18,6 @@ Here you can find writing samples and explore some of my work.
 
     Templates for how-to, tutorial, overview, and reference docs inspired by the Diataxis framework
 
-    [:octicons-arrow-right-24: Reference](#)
+    [:octicons-arrow-right-24: Diataxis overview](./writing-samples/diataxis-templates/index.md)
 
 </div>
