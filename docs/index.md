@@ -26,7 +26,7 @@ __RF systems technician__ *United States Air Force, 2009-2015*
 
 ## Education
 
-__University of California, Berkeley__, *Bachelor of Arts in English, 2020-2024*
+__University of California, Berkeley__ *Bachelor of Arts in English, 2020-2024*
 
 ## Socials
 
