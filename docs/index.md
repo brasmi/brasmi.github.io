@@ -9,7 +9,7 @@ hide:
 ![](assets/images/avatar.png){ align=left }
 
 Cal alumn (🐻 go bears!) and U.S. Air Force veteran specializing in the intersection of technology and communication. I have close to a decade of experience in radio, satellite, and network communication systems. 
-My background and education gives me a unique blend of technical expertise and communication skills that I bring to every role.
+My background and education provides me a unique blend of technical expertise and communication skills that I bring to every role.
 
 <br>
 <br>
