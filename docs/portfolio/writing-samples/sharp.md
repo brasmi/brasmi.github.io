@@ -7,7 +7,7 @@ tags:
 
 ## Introduction
 
-NVIDIA Scalable Hierarchical Aggregation and Reduction Protocol (SHARP) reduces the amount of network traffic data between aggregation nodes. Enabling SHARP frees up hardware resources for computation and reduce collective operations time.
+NVIDIA Scalable Hierarchical Aggregation and Reduction Protocol (SHARP) reduces the amount of network traffic data between aggregation nodes. Enabling SHARP frees up hardware resources for computation and reduces collective operations time.
 
 This guide describes the methods for validating SHARP configuration on a cluster and/or node. Validating SHARP configuration requries verifying aggregation trees, compute node end-to-end functionality, and running the provided performance benchmarks. 
 
