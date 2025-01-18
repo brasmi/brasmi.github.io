@@ -16,13 +16,13 @@ My background and education provides me a unique blend of technical expertise an
 
 ## Work experience
 
-__Technical writer__, *Lambda, Aug 2023 - Present*
+__Technical writer__ *Lambda, Aug 2023 - Present*
 
-__Satellite operator__, *NAVSOC, 2017-2019*
+__Satellite operator__ *NAVSOC, 2017-2019*
 
-__Electronics technician__, *Silke Communications, Pinnacle Technlogy, 2015-2017*
+__Electronics technician__ *Silke Communications, Pinnacle Technlogy, 2015-2017*
 
-__RF systems technician__, *United States Air Force, 2009-2015*
+__RF systems technician__ *United States Air Force, 2009-2015*
 
 ## Education
 
