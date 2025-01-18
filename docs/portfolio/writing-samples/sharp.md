@@ -86,7 +86,7 @@ $HPCX_SHARP_DIR/sbin/sharp_benchmark.sh
 ```
 
 !!! warning
-    If using NVIDIA SHARP from `MLNX_OFED`, make sure the `HPCX_SHAPR_DIR` environment variable has been redirected to the SHAPR installation directory, located at `/opt/mellanox/sharp` by default. Next, verify the `OMPI_HOME` environment variable is set to the MPI installation directory.
+    If using NVIDIA SHARP from `MLNX_OFED`, make sure the `HPCX_SHARP_DIR` environment variable has been redirected to the SHAPR installation directory, located at `/opt/mellanox/sharp` by default. Next, verify the `OMPI_HOME` environment variable is set to the MPI installation directory.
 
 The flags for `sharp_benchmark.sh` are:
 
