@@ -47,7 +47,7 @@ To verify aggregation nodes and tree construction:
 4. Use `grep` to count the number of configured aggreations trees in the SHARP diagnostics output file, located in `/var/tmp/ibdiagnet2/ibdiagnet2.sharp` by default. For example:
 
 ```bash
-$ cat /var/tmp/ibdiagnet2/ibdiagnet2.sharp | grep -c TreeID 126
+cat /var/tmp/ibdiagnet2/ibdiagnet2.sharp | grep -c TreeID 126
 ```
 
 The Aggregation Manager is properly constructing aggregation trees if the number of trees in the output matches the amount configured.  
@@ -81,8 +81,8 @@ From a host running SM and Aggregation Manager:
 * Load the HPC-X module and open `sharp_benchmark.sh` to launch the benchmarking script:
 
 ```bash
-$module load hpcx
-$HPCX_SHARP_DIR/sbin/sharp_benchmark.sh
+module load hpcx
+HPCX_SHARP_DIR/sbin/sharp_benchmark.sh
 ```
 
 !!! warning
